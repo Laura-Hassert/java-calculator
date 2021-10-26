@@ -7,30 +7,38 @@ public class Arithmetic {
 	}
 
 	public static float subtract(float num1, float num2) {
-		return 10.0f;
+		float diff = num1 - num2;
+		return diff;
 	}
 
 	public static float multiply(float num1, float num2) {
-		return 10.0f;
+		float prod = num1 * num2;
+		return prod;
 	}
 
 	public static float divide(float num1, float num2) {
-		return 10.0f;
+		float quo = num1 / num2;
+		return quo;
 	}
 
 	public static float square(float num1) {
-		return 10.0f;
+		float squared = num1 * num1;
+		return squared;
 	}
 
 	public static float cube(float num1) {
-		return 10.0f;
+		float cubed = num1 * num1 * num1;
+		return cubed;
 	}
 
 	public static float power(float num1, float num2) {
-		return 10.0f;
+		double dblPowered = Math.pow(num1, num2);
+		float floatPowered = (float)dblPowered;
+		return floatPowered;
 	}
 
 	public static float mod(float num1, float num2) {
-		return 10.0f;
+		float moded = num1 % num2;
+		return moded;
 	}
 }
